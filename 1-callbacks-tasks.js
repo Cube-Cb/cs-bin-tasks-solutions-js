@@ -654,5 +654,3 @@ console.log(rating(checks, 64));
 // should log: 100
 console.log(rating(checks, 66)); 
 // should log: 75
-
-

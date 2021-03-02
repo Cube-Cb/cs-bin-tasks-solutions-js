@@ -42,6 +42,7 @@ function divByFive(num) {
 function multiplyByThree(num) {
   return num * 3;
 }
+
 function addTen(num) {
     return num + 10;
 }

@@ -1,2 +1,2 @@
 # cs-bin-tasks-solutions-js
-callbacks.js-tasks
+callbacks-tasks

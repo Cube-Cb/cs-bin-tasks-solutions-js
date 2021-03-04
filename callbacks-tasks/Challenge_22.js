@@ -29,6 +29,9 @@ function multiplyByThree(num) {
 */
 
 function combineOperations(startVal, arrOfFuncs) {
+  return arrOfFuncs.reduce(function(prev, curr){
+    return curr(prev)
+  }, startVal)
 }
 
 function add100(num) {
@@ -47,5 +50,9 @@ function addTen(num) {
     return num + 10;
 }
 
-console.log(combineOperations(0, [add100, divByFive, multiplyByThree])); // Should output 60 -->
+function multiplyFive(num){
+  return num * 5
+}
+
+console.log(combineOperations(0, [add100, divByFive, multiplyByThree])); // Should output 60
 console.log(combineOperations(0, [divByFive, multiplyFive, addTen])); // Should output 10

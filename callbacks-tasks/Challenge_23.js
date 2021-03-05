@@ -22,7 +22,7 @@ function isOdd(num) {
 */
 
 function myFunc(array, callback) {
-    for(num of array) {
+    for(const num of array) {
         if(callback(num)) {
              return array.indexOf(num)
         }

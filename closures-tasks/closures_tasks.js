@@ -16,7 +16,6 @@ function createFunction() {
 */
 
 function createFunction() {
-    
 }
 
 const function1 = createFunction();
